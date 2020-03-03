@@ -1,0 +1,13 @@
+md5: e6539c9efb74f39fb19506769701e123
+cmd: python code/process_raw.py
+deps:
+- md5: d0696bc4e3b586f8dee9538686235774
+  path: code/process_raw.py
+- md5: be1f62bff36d97a7a6b1d1eb2ba78a28
+  path: data/grades.csv
+outs:
+- md5: 21dd2778fb2476984dcd0ea2f19f5344
+  path: data/grades_normal.csv
+  cache: true
+  metric: false
+  persist: false
